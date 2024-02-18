@@ -5,7 +5,7 @@ import plotly.express as px  # Plotly Express for easy plotting
 import plotly.graph_objects as go  # Plotly Graph Objects for more customization
 
 # Read data from CSV file into a Pandas DataFrame
-data = pd.read_csv("apple_products.csv")
+data = pd.read_csv("./raw_data/apple_products.csv")
 # Uncomment the following lines if you want to inspect the data
 # print(data.head())      # Display the first few rows of the DataFrame
 # print(data.isnull().sum())  # Display the count of missing values in each column
